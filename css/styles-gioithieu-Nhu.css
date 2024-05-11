@@ -1,0 +1,57 @@
+@charset "utf-8";
+.container-gioithieu-ttlh{
+	height:1540px;
+	width:250px;
+	float: left;
+	margin-right: 40px;
+	padding-top: 25px;
+	margin-top: 25px;
+}
+
+.container-gioithieu{
+	float: left;
+	width: 850px;
+	height: 1540px;
+	text-align: left;
+	padding-top: 25px;
+}
+
+.slogan{
+	font-family: 'Charmonman', cursive;
+	color: #9d394b;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.vsctvw{ 
+	font-family: 'Great Vibes', cursive;
+	font-size: 40px;
+	color: rosybrown;
+}
+
+.cctdhph{
+	list-style: none;
+}
+
+.separator-gioithieu {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.separator-gioithieu::before,
+.separator-gioithieu::after {
+  content: '';
+  flex: 1;
+  border-bottom: 2px solid #DEB887;
+}
+
+.separator-gioithieu:not(:empty)::before {
+  margin-right:20px;
+}
+
+.separator-gioithieu:not(:empty)::after {
+  margin-left: 20px;
+}

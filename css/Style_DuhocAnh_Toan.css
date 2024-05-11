@@ -1,0 +1,103 @@
+@charset "utf-8";
+.full .full .hvr-radial-out.button-theme {
+    color: #FFFFFF;
+	font-size: 14px;
+    background-size: 95px 50px;
+    background-color: #075C70;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 30px;
+}
+.alert-theme{
+    color: #FFFFFF;
+    background-size: 120px 50px;
+    font-size: 14px;
+    background-color: #075C70;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 33px;
+}
+hvr-radial-out button- alert-theme
+.full .full p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.heading_main.text_align_center h2 span {
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+.bg-info{
+	background-color: url("/DuhocAnh/images/background3-1.jpeg");
+	width:800px;
+}
+
+fieldset .full.field input {
+	width : 200px;
+    width: 554px;
+    height: 55px;
+}
+fieldset .full.field textarea {
+    width: 554px;
+    height: 120px;
+}
+.full.field .center button {
+    height: 55px;
+    width: 135px;
+    margin-left: 200px;
+    margin-right: 250px;
+}
+.full .heading_main.text_align_center h2 {
+    color: burlywood;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 30px;   
+}
+.heading_main.text_align_center .separator h2 {
+	 color: #604A20;	
+}
+.bg{
+	height:420px;
+}
+.container.well{
+	background-color: burlywood
+}
+.row .col-xs-6.col-sm-6.col-lg-4.col-md-4 h3 {
+     color :#1F1D01;
+    font-weight: bold;
+}
+.media-body{
+	 color: #362A04;
+    text-align: justify;
+}
+.media .media-body .media-heading {
+    color: #9d394b;
+    font-weight: bolder;
+}
+
+.col-xs-6.col-sm-6.col-lg-4.col-md-4 address strong {
+    font-weight: bolder;
+	color: #9d394b;
+    font-size: 18px;
+}
+.col-xs-6.col-sm-6.col-lg-4.col-md-4 h3 span {
+   font-weight: bold;
+	font-size: 30px;
+}
+.full.field .center button {
+    text-transform: uppercase;
+}
+
+.btn{
+
+    text-align: center;
+	background-color: #9d394b;
+	color: #fff4e7;
+}
+
+.cnn {
+	color: #9d394b;
+	text-align: center;
+	font-weight: bolder;
+	font-family: 'Charmonman', cursive;
+	font-size: 25px;
+}

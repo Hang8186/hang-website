@@ -1,0 +1,45 @@
+.row1{
+	margin-right: -15px;
+    margin-left: -15px;
+	padding-top: 30px;
+}
+.row2{
+	padding-: 30px
+}a .date .top {
+	color: #FBF7F7;
+}
+a .date .bottom {
+	color: #FCF9F9;
+}
+.col-lg-4.col-md-6.col-sm-12.text-center a h3 {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+}.pagination.justify-content-center .page-item .page-link {
+	font-weight: bold;
+}
+.row .pagination {
+	font-weight: bold;
+}
+.row .col-sm-6.col-lg-6 {
+	border: thin solid #9B8B8B;
+}
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+	margin-left: 60px !important;
+	margin-right: 60px !important;
+    border: 0;
+    border-top: 2px solid #C43E40 !important;
+}
+.date{
+	width:80px; 
+	height: 80px; 
+	float: left; 
+	margin-right: 20px;
+	text-align: center; 
+	background-color: #9d394b; 
+	align-items: center; 
+	padding: 10px 10px 10px 10px; 
+	border-radius: 20px;
+}

@@ -1,0 +1,22 @@
+.Title{
+	padding: 10px 0 10px 0;
+	align-items: center;
+	text-align: center;
+	color: #E13639;
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.content{
+	font-size: 17px;
+	font-family: 'Noto Serif', serif;
+	max-width: 600px;
+	float: left;
+}
+.hr1 {
+	margin-left: 330px !important;
+	margin-right: 330px !important;
+    margin-top: 20px !important;
+    margin-bottom: 21px!important;
+    border-top: 2px solid #f00!important;
+}

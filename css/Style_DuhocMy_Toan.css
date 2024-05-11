@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+.bg-success{
+    height: 480px;
+}
+.bg-success .container.text-center.my-5.py-5 .text-white.mt-4.mb-4 {
+    color: #fff4e7;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 30px;
+	font-size: 42px;
+}
+.bg-success .container.text-center.my-5.py-5 .text-white.display-1.mb-5 {
+    color: #fff4e7;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.bg-white{
+    width: 150px;
+    height: 61px;
+    margin-left: -50px;
+    text-align: center;
+    margin-top: 1px;
+}
+.btn-secondary{
+    width: 110px;
+    height: 61px;
+    background-color: #9d394b;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 1px;
+}
+.col-lg-offset-0{
+	text-align: center;
+}
+
+.row .col-lg-12.text-center .text-muted.section-subheading {
+    color: burlywood;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 30px;
+	font-size: 50px;
+
+}
+.container.py-5 .section-title.text-center.position-relative.mb-5 .display-4 {
+    color: burlywood;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+
+.bg-image.mx-0.mb-5{
+    padding-left: 800px; 
+}
+
+.form-control.bg-light.border-0{
+	width: 800px;
+}
+
+.col-sm-6.col-lg.col-lg-offset-1.col-lg-5{
+    width: 229px;
+}
+form .form-row .col-sm-6.col-lg-offset-2.col-lg-2 {
+    width: 114px;
+    margin-left: 83px;
+}
+form .form-row .col-sm-6.col-lg-offset-1.col-lg-6 {
+    margin-left: 207px;
+}
+.col-sm-6.col-lg-offset-1.col-lg-6 .form-group .custom-select.bg-light.border-0.px-3 {
+}
+
+.col-12.jumbotron.col-lg-10{
+    background-color: burlywood;
+    margin-left: 95px;
+    border: 2px solid #02168D;
+}
+
+.text-center.mb-4{
+    color: #9d394b;
+    font-size: 40px;
+}
+form .form-group label {
+    color: #9d394b;
+}
+form .form-row .col-sm-6 {
+}
+.team-item .bg-light.text-center.p-4 .mb-3 {
+}
+.owl-carousel.team-carousel.position-relative .team-item .bg-light.text-center.p-4 {
+    width: 280px;
+}
+
+.media-heading{
+	font-weight: bold;
+}
+
+.container .content-section-heading.text-center .mb-5 {
+    font-weight: bold;
+    font-size: 47px;
+}
+.caption .caption-content h2 {
+    color: #9d394b;;
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.container.py-5 .section-title.text-center.position-relative.mb-5 .d-inline-block.position-relative.text-secondary.text-uppercase.pb-2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+.container.py-5 .section-title.text-center.position-relative.mb-5 .display-4 {
+    color: burlywood;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+	
+	
+.owl-carousel.team-carousel.position-relative .team-item .img-fluid.w-100 {
+}
+
+.container.py-5 .section-title.text-center.position-relative.mb-5 .d-inline-block.position-relative.text-secondary.text-uppercase.pb-2 {
+	color: burlywood;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+.row.align-items-start .col.col-lg-1.col-lg-offset-3 .btn.btn-outline-light.bg-white.text-body.px-4.dropdown-toggle {
+    color: #000000;
+}
+.row.align-items-start .col.col-lg-offset-0.col-lg-1 .btn.btn-secondary.px-4 {
+	 color: #FFFFFF;
+}
+
+.container.well{
+	background-color: burlywood;
+}
+
+.dropdown-item{
+	color:black;
+}
+
+
+.text-center.mb-4{
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 30px;
+	font-size: 40px;
+}
+
+
+
+.img-fluid{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.media-body{
+	text-align: justify;
+	color:#000000;
+}
+
+
+.mb-2{
+    text-align: center;	
+}
+
+.nhtdhs{
+	color: #9d394b;
+	text-align: center;
+	font-weight: bolder;
+	font-family: 'Charmonman', cursive;
+	font-size: 20px;
+}
+
+.text-muted{
+	text-align:center;
+	color: black;
+}
+

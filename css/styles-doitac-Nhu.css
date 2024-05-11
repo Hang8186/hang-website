@@ -1,0 +1,55 @@
+@charset "utf-8";
+.container-gioithieu-ttlh{
+	height:2700px;
+	width:250px;
+	float: left;
+	margin-right: 40px;
+	padding-top: 30px;
+}
+
+.logo-doitac1{
+	height: 200px;
+	padding-top: 60px;
+}
+
+.logo-doitac2 {
+	height: 200px;
+	padding-top:100px;
+	padding-bottom: 150px;
+	margin-top: 90px;
+	margin-bottom: 30px;
+	
+}
+
+.container-gioithieu{
+	float: left;
+	width: 850px;
+	height: 2700px;
+	text-align: left;
+	padding-top: 5px;
+	padding-left: 35px;
+}
+
+.content-doitac{
+	width: 850px;
+	height: 400px;
+	padding-top: 20px;
+}
+
+.logo-doitac1 img {
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.logo-doitac2 img{
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.header-doitac {
+	margin-top: 20px;
+	padding-top: 43px;
+	color: burlywood;
+	text-align: center;
+	font-weight: bold;
+}
