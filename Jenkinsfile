@@ -28,7 +28,8 @@ pipeline {
       steps {
         sshagent(['manager']) {
         //   sh 'ssh -o StrictHostKeyChecking=no -l hang 192.168.226.145 sudo sh /home/hang/Desktop/hang-website/deploy.sh'
-            echo 'ubuntu' | sh 'ssh -o StrictHostKeyChecking=no -l hang 192.168.226.145 sudo -S sh /home/hang/Desktop/hang-website/deploy.sh'
+            // echo 'ubuntu' | sh 'ssh -o StrictHostKeyChecking=no -l hang 192.168.226.145 sudo -S sh /home/hang/Desktop/hang-website/deploy.sh'
+            sh 'sshpass -p ubuntu ssh -o StrictHostKeyChecking=no -l hang 192.168.226.145 sudo sh /home/hang/Desktop/hang-website/deploy.sh'
         }
       }
     //   post {
