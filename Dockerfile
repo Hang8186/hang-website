@@ -13,16 +13,17 @@ COPY ./lib /usr/share/nginx/html/lib
 COPY ./scss /usr/share/nginx/html/scss
 COPY ./Templates /usr/share/nginx/html/Templates
 COPY ./vendor /usr/share/nginx/html/vendor
-COPY ./Dangky.html /usr/share/nginx/html/Dangky.html
-COPY ./DoiTac.html /usr/share/nginx/html/DoiTac.html
-COPY ./DuhocAnh.html /usr/share/nginx/html/DuhocAnh.html
-COPY ./DuhocCanada.html /usr/share/nginx/html/DuhocCanada.html
-COPY ./DuhocMy.html /usr/share/nginx/html/DuhocMy.html
-COPY ./DuhocUc.html /usr/share/nginx/html/DuhocUc.html
-COPY ./GioiThieu.html /usr/share/nginx/html/GioiThieu.html
+# COPY ./Dangky.html /usr/share/nginx/html/Dangky.html
+# COPY ./DoiTac.html /usr/share/nginx/html/DoiTac.html
+# COPY ./DuhocAnh.html /usr/share/nginx/html/DuhocAnh.html
+# COPY ./DuhocCanada.html /usr/share/nginx/html/DuhocCanada.html
+# COPY ./DuhocMy.html /usr/share/nginx/html/DuhocMy.html
+# COPY ./DuhocUc.html /usr/share/nginx/html/DuhocUc.html
+# COPY ./GioiThieu.html /usr/share/nginx/html/GioiThieu.html
 COPY ./index.html /usr/share/nginx/html/index.html
-COPY ./Lienhe.html /usr/share/nginx/html/Lienhe.html
-COPY ./Tintuc.html /usr/share/nginx/html/Tintuc.html
+COPY ./html /usr/share/nginx/html/
+# COPY ./Lienhe.html /usr/share/nginx/html/Lienhe.html
+# COPY ./Tintuc.html /usr/share/nginx/html/Tintuc.html
 
 COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
 
