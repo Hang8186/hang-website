@@ -30,14 +30,14 @@ pipeline {
           sh 'ssh -o StrictHostKeyChecking=no -l hang 192.168.226.145 sudo sh /home/hang/Desktop/hang-website/deploy.sh'
         }
       }
-      post {
-        success {
-          slackSend (channel: "#project", color: 'good', message: "SUCCESS: Website deployed successfully.")
-        }  
-        failure {
-          slackSend (channel: "#project", color: 'danger', message: "FAILURE: Website deployment failed.")
-        }
-      }
+      // post {
+      //   success {
+      //     slackSend (channel: "#project", color: 'good', message: "SUCCESS: Website deployed successfully.")
+      //   }  
+      //   failure {
+      //     slackSend (channel: "#project", color: 'danger', message: "FAILURE: Website deployment failed.")
+      //   }
+      // }
     }
   }
 }
