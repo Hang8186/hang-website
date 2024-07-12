@@ -6,10 +6,12 @@ pipeline {
       steps {
         script {
             docker.withRegistry('https://index.docker.io/v1/', 'jenkins-dockerhub') {
+              // Slack 
               def previousCommit = env.GIT_PREVIOUS_SUCCESSFUL_COMMIT ?: 'HEAD'
               def currentCommit = env.GIT_COMMIT
               def commitDetails = sh(script: "git log --pretty=format:\"%s - %an (<https://github.com/Hang8186/hang-website/commit/%h|details>)\" ${previousCommit}..${currentCommit} | nl -n ln -w1 -s'. '", returnStdout: true).trim()
               env.commitDetails = commitDetails
+              // Docker
               def dockerImage = docker.build('mariahang86/hang-website', '-f Dockerfile .')
               dockerImage.push('latest')
             }
